@@ -12,7 +12,7 @@
             <a href="usuarios" class="btn btn-primary col-md-12 m-2">
                 Usuarios
             </a>
-            <a href="clientes" class="btn btn-secondary col-md-12 m-2">Clientes</a>
+            <a href="clientes" class="btn btn-info col-md-12 m-2">Clientes</a>
             <a href="seguros" class="btn btn-success col-md-12 m-2">Productos</a>
         </div>
     </div>

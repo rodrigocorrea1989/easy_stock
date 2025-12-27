@@ -36,7 +36,7 @@ if (!isset($_SESSION['usuario'])) {
                 <a class="nav-link" href="usuarios">Usuarios</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Clientes</a>
+                <a class="nav-link" href="clientes">Clientes</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">Productos</a>
