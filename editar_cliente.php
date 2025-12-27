@@ -12,7 +12,7 @@ $resultado = mysqli_query($conn, $query);
 $cliente = mysqli_fetch_assoc($resultado);
 ?>
 
-<div class="container mt-5">
+<div class="container mt-5 mb-5">
     <div class="row justify-content-center">
         <div class="col-md-6">
             <div class="card">

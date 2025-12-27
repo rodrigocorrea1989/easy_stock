@@ -2,8 +2,8 @@
     <div class="row">
         <div class="col-md-12">
             <div id="main-content">
-                <h2>Easy Stock</h2>
-                <p>Sistema de gestión de Stock.</p>
+                <h2>Sys Seguros</h2>
+                <p>Sistema de gestión de seguros.</p>
             </div>
         </div>
     </div>
@@ -13,7 +13,7 @@
                 Usuarios
             </a>
             <a href="clientes" class="btn btn-info col-md-12 m-2">Clientes</a>
-            <a href="seguros" class="btn btn-success col-md-12 m-2">Productos</a>
+            <a href="seguros" class="btn btn-success col-md-12 m-2">Seguros</a>
         </div>
     </div>
 </div>

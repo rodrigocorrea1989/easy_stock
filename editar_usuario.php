@@ -30,7 +30,7 @@ $conn->close();
 </head>
 
 <body>
-    <div class="container col-md-4 mt-1">
+    <div class="container col-md-4 mt-1 mb-5">
         <div class="card">
             <div class="card-header">
                 <h2 class="text-success">Editar Usuario</h2>

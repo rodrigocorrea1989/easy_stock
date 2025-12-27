@@ -19,10 +19,10 @@ if (!isset($_SESSION['usuario'])) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <script src="bootstrap/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
-    <title>Easy Stock</title>
+    <title>Sys Seguros</title>
 </head>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="index">Easy Stock</a>
+    <a class="navbar-brand" href="index">Sys Seguros</a>
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
         <span class="navbar-toggler-icon"></span>
@@ -39,7 +39,7 @@ if (!isset($_SESSION['usuario'])) {
                 <a class="nav-link" href="clientes">Clientes</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Productos</a>
+                <a class="nav-link" href="seguros">Seguros</a>
             </li>
         </ul>
 
