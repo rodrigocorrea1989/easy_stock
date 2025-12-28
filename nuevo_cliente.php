@@ -32,10 +32,6 @@ include("comprobar_acceso.php");
                             <input type="text" class="form-control" name="direccion" id="direccion" placeholder="Ingresa dirección del cliente">
                         </div>
                         <div class="form-group">
-                            <label for="usuario">Contactos</label>
-                            <textarea class="form-control" name="contacto" id="contacto" placeholder="Ingresa numeros de contactos de cliente"></textarea>
-                        </div>
-                        <div class="form-group">
                             <label for="usuario">Whatsapp</label><br>
                             <span class="text-danger">No utilizar caracteres especiales como guiones o puntos.</span>
                             <input type="number" class="form-control" name="wp" id="wp" placeholder="Ejemplo: 541111223344">

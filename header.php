@@ -6,6 +6,8 @@ session_start();
 
 error_reporting(1);
 
+date_default_timezone_set('America/Argentina/Buenos_Aires');
+
 if (!isset($_SESSION['usuario'])) {
 
     echo "<style>#salir{ display:none !important; } </style>";

@@ -18,7 +18,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $mail = addslashes(htmlentities($_POST['mail'])); // Hashear la contraseña
 
     // Preparar y ejecutar la consulta SQL
-    $sql = "INSERT INTO clientes (DNI, NOMBRE , APELLIDO , DIRECCION , WHATSAPP , EMAIL) VALUES (?, ?, ?, ? , ? , ? , ?)";
+    $sql = "INSERT INTO clientes (DNI, NOMBRE , APELLIDO , DIRECCION , WHATSAPP , EMAIL) VALUES (?, ?, ?, ? , ? , ?)";
     $stmt = $conn->prepare($sql);
     $stmt->bind_param("ssssss", $dni, $nombre, $apellido, $direccion, $wp, $mail);
 
