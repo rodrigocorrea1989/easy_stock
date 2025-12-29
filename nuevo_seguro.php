@@ -6,7 +6,7 @@ include("comprobar_acceso.php");
 
 ?>
 
-<div class="container">
+<div class="container mb-5">
     <div class="row justify-content-center">
         <div class="col-md-6">
             <div class="card">
@@ -14,7 +14,7 @@ include("comprobar_acceso.php");
                     <h3>Nuevo Cliente</h3>
                 </div>
                 <div class="card-body">
-                    <form action="insertar_seguro" method="POST" class="mt-4">
+                    <form action="insertar_seguro" method="POST" class="mt-4 ">
 
                         <div class="form-group">
                             <label for="nombre">Nombre</label>
@@ -46,4 +46,5 @@ include("comprobar_acceso.php");
             </div>
         </div>
     </div>
+    <a class="btn btn-success" href="seguros">Volver</a>
 </div>

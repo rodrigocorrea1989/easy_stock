@@ -44,7 +44,7 @@ $result = $stmt->get_result();
 ?>
 
 
-<div class="container mt-5">
+<div class="container-fluid mt-5">
     <center>
         <h2 class="mt-3 text-info">Polizas Asociadas a <?php echo $cliente ?> </h2>
     </center>
@@ -57,6 +57,12 @@ $result = $stmt->get_result();
                 <th scope="col">Seguro</th>
                 <th scope="col">Costo</th>
                 <th scope="col">Fecha de Alta</th>
+                <th scope="col">
+                    <center>Pagos Pendientes</center>
+                </th>
+                <th scope="col">Próximo vencimientos</th>
+                <th scope="col">Cobros</th>
+                <th scope="col"></th>
             </tr>
         </thead>
         <tbody>
@@ -69,6 +75,12 @@ $result = $stmt->get_result();
                         <td><?php echo htmlspecialchars($row['seguro']); ?></td>
                         <td>$ <?php echo number_format($row['precio'], 2, ',', '.'); ?></td>
                         <td><?php echo date('d/m/Y H:i', strtotime($row['fecha_alta'])); ?></td>
+                        <td>
+                            <center>5</center>
+                        </td>
+                        <td></td>
+                        <td></td>
+                        <td><a class="btn btn-danger">Dar de baja</a></td>
                     </tr>
                 <?php endwhile; ?>
             <?php else: ?>
@@ -80,4 +92,5 @@ $result = $stmt->get_result();
             <?php endif; ?>
         </tbody>
     </table>
+    <a class="btn btn-primary" href="clientes">Volver</a>
 </div>
